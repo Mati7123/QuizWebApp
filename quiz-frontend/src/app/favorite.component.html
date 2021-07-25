@@ -1,0 +1,16 @@
+<mat-card>
+    <mat-card-title>
+        <span> My Favorite Quizzes</span>
+    </mat-card-title>
+    <mat-card-content>
+        <mat-list *ngFor = "let quiz of quizzes">
+            <mat-list-item class="clickLink" [routerLink]="['/playQuiz', quiz.id]" >{{quiz.title}}
+            </mat-list-item>
+            <div class="button-container">
+                <button mat-mini-fab color="warn" (click)="api.deleteFavorite(quiz); refresh()" mat-button><mat-icon>delete</mat-icon></button>  
+            </div>
+        </mat-list>    
+    </mat-card-content>
+    <mat-card-actions>
+    </mat-card-actions>
+ </mat-card>

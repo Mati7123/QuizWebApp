@@ -1,4 +1,38 @@
-﻿<Properties StartupConfiguration="{38176269-CE69-411F-9072-134279FA0E2B}|Default">
+﻿<Properties StartupConfiguration="{262C2F42-EC44-4218-AEFF-A463358E2BB3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="quiz-backend/Startup.cs">
+    <Files>
+      <File FileName="quiz-backend/Controllers/WeatherForecastController.cs" Line="23" Column="30" />
+      <File FileName="quiz-backend/Models/Question.cs" />
+      <File FileName="quiz-backend/QuizContext.cs" />
+      <File FileName="quiz-backend/Controllers/QuestionsController.cs" />
+      <File FileName="quiz-backend/Models/Quiz.cs" />
+      <File FileName="quiz-backend/Controllers/QuizzesController.cs" Line="65" Column="55" />
+      <File FileName="quiz-backend/Startup.cs" Line="42" Column="88" />
+      <File FileName="quiz-backend/Controllers/AccountController.cs" />
+      <File FileName="quiz-backend/Program.cs" />
+      <File FileName="quiz-backend/quiz-backend.csproj" />
+      <File FileName="quiz-backend/UserDbContext.cs" />
+      <File FileName="quiz-backend/Models/FavoriteQuiz.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="quiz-backend" expanded="True">
+            <Node name="quiz-backend" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.quiz-backend FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.quiz-backend PreferredExecutionTarget="/Applications/Safari.app" />
 </Properties>
